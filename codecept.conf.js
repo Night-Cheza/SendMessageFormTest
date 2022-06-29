@@ -12,13 +12,15 @@ exports.config = {
   output: './output',
   helpers: {
     Playwright: {
-      url: '(https://bluescapeqainterview.wordpress.com/contact/)',
+      url: 'https://bluescapeqainterview.wordpress.com/contact/',
       show: true,
       browser: 'chromium'
     }
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    ...require("./pages/form.page"),
+    testData: "./test/form_test.js"
   },
   bootstrap: null,
   mocha: {},
