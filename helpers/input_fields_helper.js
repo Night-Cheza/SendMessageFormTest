@@ -1,6 +1,6 @@
 const Helper = require('@codeceptjs/helper');
 
-class InpuFieldsHelper extends Helper {
+class InputFieldsHelper extends Helper {
 
   async testHappyPath() {
     const {page} = this.helpers.Playwright;
@@ -116,4 +116,4 @@ class InpuFieldsHelper extends Helper {
 
 }
 
-module.exports = InpuFieldsHelper;
+module.exports = InputFieldsHelper;
