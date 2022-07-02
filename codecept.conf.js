@@ -12,17 +12,18 @@ exports.config = {
   output: './output',
   helpers: {
     Playwright: {
-      url: 'https://bluescapeqainterview.wordpress.com/contact/',
+      url: 'https://bluescapeqainterview.wordpress.com',
       show: true,
       browser: 'chromium'
+    },
+    PlaywrightHelper: {
+      require: "./helpers/happy_path_helper.js"
     }
   },
   include: {
-    I: './steps_file.js',
-    ...require("./pages/form.page"),
-    testData: "./test/form_test.js"
+    I: './steps_file.js'
   },
   bootstrap: null,
   mocha: {},
-  name: 'Testing'
+  name: 'FormTesting'
 }
