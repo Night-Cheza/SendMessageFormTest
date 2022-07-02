@@ -17,8 +17,8 @@ exports.config = {
       browser: 'chromium'
     },
     PlaywrightHelper: {
-      require: "./helpers/happy_path_helper.js"
-    }
+      require: "./helpers/input_fields_helper.js"
+    },
   },
   include: {
     I: './steps_file.js'
