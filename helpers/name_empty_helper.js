@@ -1,15 +1,15 @@
 const Helper = require('@codeceptjs/helper');
 
-class HappyPathHelper extends Helper {
+class NameEmptyHelper extends Helper {
 
-  async testFormInputs() {
+  async testNameInput() {
     const {page} = this.helpers.Playwright;
     await page.goto("https://bluescapeqainterview.wordpress.com/contact/");
 
     // Click input[name="g7-name"]
     await page.locator('input[name="g7-name"]').click();
     // Fill input[name="g7-name"]
-    await page.locator('input[name="g7-name"]').fill('name');
+    await page.locator('input[name="g7-name"]').fill('');
 
     // Click input[name="g7-email"]
     await page.locator('input[name="g7-email"]').click();
@@ -32,4 +32,4 @@ class HappyPathHelper extends Helper {
 
 }
 
-module.exports = HappyPathHelper;
+module.exports = NameEmptyHelper;
