@@ -6,24 +6,24 @@ class InputFieldsHelper extends Helper {
     const {page} = this.helpers.Playwright;
     await page.goto("https://bluescapeqainterview.wordpress.com/contact/");
 
-    // Click input[name="g7-name"]
+    // Click name input field
     await page.locator('input[name="g7-name"]').click();
-    // Fill input[name="g7-name"]
+    // Fill name input field
     await page.locator('input[name="g7-name"]').fill('name');
 
-    // Click input[name="g7-email"]
+    // Click email input field
     await page.locator('input[name="g7-email"]').click();
-    // Fill input[name="g7-email"]
+    // Fill email input field
     await page.locator('input[name="g7-email"]').fill('abc@google.com');
 
-    // Click input[name="g7-website"]
+    // Click website input field
     await page.locator('input[name="g7-website"]').click();
-    // Fill input[name="g7-website"]
+    // Fill website input field
     await page.locator('input[name="g7-website"]').fill('https://google.com');
 
-    // Click input[name="g7-date"]
+    // Click date input field
     await page.locator('input[name="g7-date"]').click();
-    // Click text=9 on the calendar
+    // Click text=27 on the calendar
     await page.locator('text=27').click();
 
     // Click text=Submit
@@ -34,24 +34,24 @@ class InputFieldsHelper extends Helper {
     const {page} = this.helpers.Playwright;
     await page.goto("https://bluescapeqainterview.wordpress.com/contact/");
 
-    // Click input[name="g7-name"]
+    // Click name input field
     await page.locator('input[name="g7-name"]').click();
-    // Fill input[name="g7-name"]
+    // Fill name input field
     await page.locator('input[name="g7-name"]').fill('');
 
-    // Click input[name="g7-email"]
+    // Click email input field
     await page.locator('input[name="g7-email"]').click();
-    // Fill input[name="g7-email"]
+    // Fill email input field
     await page.locator('input[name="g7-email"]').fill('abc@google.com');
 
-    // Click input[name="g7-website"]
+    // Click website input field
     await page.locator('input[name="g7-website"]').click();
-    // Fill input[name="g7-website"]
+    // Fill website input field
     await page.locator('input[name="g7-website"]').fill('https://google.com');
 
-    // Click input[name="g7-date"]
+    // Click date input field
     await page.locator('input[name="g7-date"]').click();
-    // Click text=9 on the calendar
+    // Click text=27 on the calendar
     await page.locator('text=27').click();
 
     // Click text=Submit
@@ -62,24 +62,24 @@ class InputFieldsHelper extends Helper {
     const {page} = this.helpers.Playwright;
     await page.goto("https://bluescapeqainterview.wordpress.com/contact/");
 
-    // Click input[name="g7-name"]
+    // Click name input field
     await page.locator('input[name="g7-name"]').click();
-    // Fill input[name="g7-name"]
+    // Fill name input field
     await page.locator('input[name="g7-name"]').fill('name');
 
-    // Click input[name="g7-email"]
+    // Click email input field
     await page.locator('input[name="g7-email"]').click();
-    // Fill input[name="g7-email"]
+    // Fill email input field
     await page.locator('input[name="g7-email"]').fill('');
 
-    // Click input[name="g7-website"]
+    // Click website input field
     await page.locator('input[name="g7-website"]').click();
-    // Fill input[name="g7-website"]
+    // Fill website input field
     await page.locator('input[name="g7-website"]').fill('https://google.com');
 
-    // Click input[name="g7-date"]
+    // Click date input field
     await page.locator('input[name="g7-date"]').click();
-    // Click text=9 on the calendar
+    // Click text=27 on the calendar
     await page.locator('text=27').click();
 
     // Click text=Submit
@@ -90,24 +90,24 @@ class InputFieldsHelper extends Helper {
     const {page} = this.helpers.Playwright;
     await page.goto("https://bluescapeqainterview.wordpress.com/contact/");
 
-    // Click input[name="g7-name"]
+    // Click name input field
     await page.locator('input[name="g7-name"]').click();
-    // Fill input[name="g7-name"]
+    // Fill name input field
     await page.locator('input[name="g7-name"]').fill('name');
 
-    // Click input[name="g7-email"]
+    // Click email input field
     await page.locator('input[name="g7-email"]').click();
-    // Fill input[name="g7-email"]
+    // Fill email input field
     await page.locator('input[name="g7-email"]').fill('abc@google.com');
 
-    // Click input[name="g7-website"]
+    // Click website input field
     await page.locator('input[name="g7-website"]').click();
-    // Fill input[name="g7-website"]
+    // Fill website input field
     await page.locator('input[name="g7-website"]').fill('some website');
 
-    // Click input[name="g7-date"]
+    // Click date input field
     await page.locator('input[name="g7-date"]').click();
-    // Click text=9 on the calendar
+    // Click text=27 on the calendar
     await page.locator('text=27').click();
 
     // Click text=Submit
